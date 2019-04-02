@@ -8,7 +8,7 @@
 <ul>
   <li *ngFor="let currentRecipe of recipies"><h2>{{currentRecipe.title}}</h2>
     <ul><strong>Ingredients</strong><li *ngFor="let currentIngredients of currentRecipe.ingredients">{{currentIngredients}}</li></ul>
-    <br>
+  <br>
     <ul><strong>Directions</strong><li *ngFor="let currentDirections of currentRecipe.directions">{{currentDirections}}</li></ul>
   </li>
   <br>
